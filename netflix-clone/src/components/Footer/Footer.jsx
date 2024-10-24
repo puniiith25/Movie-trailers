@@ -28,6 +28,10 @@ const Footer = () => {
       <li>Contact Us</li>
       </ul>
       <p className="CopyRight-Text">© 1997-2023 Netflix, Inc.</p>
+<<<<<<< HEAD:netflix-clone/src/components/Footer/Footer.jsx
+=======
+      <p className="CopyRight-Text"> ©puniiith25@gamil.com</p>
+>>>>>>> 46d4202 (second commite):src/components/Footer/Footer.jsx
       
     </div>
   )

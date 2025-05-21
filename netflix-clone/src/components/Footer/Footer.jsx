@@ -15,24 +15,24 @@ const Footer = () => {
         <img src={YouTube_icon} alt="" />
       </div>
       <ul className='Ul-list'>
-      <li>Audio Description</li>
-      <li>Help Centre</li>
-      <li>Gift Cards</li>
-      <li>Media Centre</li>
-      <li>Investor Relations</li>
-      <li>Jobs</li>
-      <li>terms of Use</li>
-      <li>Privecy</li>
-      <li>Legal Notices</li>
-      <li>Cookie PreFerences</li>
-      <li>Contact Us</li>
+        <li>Audio Description</li>
+        <li>Help Centre</li>
+        <li>Gift Cards</li>
+        <li>Media Centre</li>
+        <li>Investor Relations</li>
+        <li>Jobs</li>
+        <li>terms of Use</li>
+        <li>Privecy</li>
+        <li>Legal Notices</li>
+        <li>Cookie PreFerences</li>
+        <li>Contact Us</li>
       </ul>
       <p className="CopyRight-Text">© 1997-2023 Netflix, Inc.</p>
-<<<<<<< HEAD:netflix-clone/src/components/Footer/Footer.jsx
-=======
+
+
       <p className="CopyRight-Text"> ©puniiith25@gamil.com</p>
->>>>>>> 46d4202 (second commite):src/components/Footer/Footer.jsx
-      
+
+
     </div>
   )
 }

@@ -4,21 +4,18 @@ import Logo from '../../assets/logo.png'
 import { SignIn ,Signup } from '../../Firebase'
 
 const Login = () => {
-  const [singState, setsingstate] = useState("Sign In")
+  const [singState, setsingstate] = useState("Sign In");
   const [ name , setname ] = useState("");
   const [ email , setemail ] = useState('');
   const [ password , setpassword ] = useState('');
 
   const user_auth = async (event)=>{
     event.preventdefault();
-    if(singState==="Sign In"){
-      await SignIn(email,password);
 
-    }else{
-      await Signup(name,email,password)
-    }
+    
+    console.log(name,email,password)
   }
-
+  
   return (
     <div className='Login'>
       <img src={Logo} alt="" className='Login-Logo'/>

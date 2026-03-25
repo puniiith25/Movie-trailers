@@ -6,6 +6,7 @@ import Player from './Pages/Player/Player.jsx'
 const App = () => {
   return (
     <div>
+      {/* movie web trailer */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
